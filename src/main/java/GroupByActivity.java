@@ -31,7 +31,7 @@ import java.util.Map;
  *      SELECT manager, AVG(salary)
  *      FROM employees
  *      GROUP BY manager
- *      ORDER BY AVG(salary) DESC
+ *      ORDER BY AVG(salary) DESC 
  *
  *
  * Additional Reference if needed: https://www.w3schools.com/sql/sql_groupby.asp
