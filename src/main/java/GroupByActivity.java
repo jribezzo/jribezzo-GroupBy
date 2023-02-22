@@ -30,8 +30,8 @@ import java.util.Map;
  * average salary of employees under that manager (then order it from greatest average salary to least):
  *      SELECT manager, AVG(salary)
  *      FROM employees
- *      GROUP BY manager
- *      ORDER BY AVG(salary) DESC 
+ *      GROUP BY manager 
+ *      ORDER BY AVG(salary) DESC  
  *
  *
  * Additional Reference if needed: https://www.w3schools.com/sql/sql_groupby.asp
